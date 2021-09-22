@@ -1,0 +1,71 @@
+.carouselSpace{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    width: 60%;
+    height: 600px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+   
+    
+  
+}
+.carousel h2{
+    margin-left:27%;
+    margin-bottom: 15px;
+
+}
+.carouselInner{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+.carouselInner .left{
+    flex:7%;
+    height: 100%;
+    background-color: rgba(200, 243, 230, 0.199);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+.carouselInner .center{
+    flex:86%;
+    height: 100%;
+   
+}
+.carouselInner .right{
+    flex:7%;
+    height: 100%;
+    background-color: rgba(200, 243, 230, 0.199);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    .carousel{
+        width: 100%;
+        height: 600px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        
+       
+        
+      
+    }
+    .carousel h2{
+        font-size:20px;
+        margin-left:10%;
+        margin-bottom: 15px;
+    
+    }
+
+}

@@ -1,0 +1,7 @@
+.formEmail{
+    display: flex;
+    flex-direction: column;
+}
+.inputEmail{
+    margin-top: 2px;
+}

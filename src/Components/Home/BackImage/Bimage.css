@@ -1,0 +1,28 @@
+.allImages{
+   background-image: url("https://i.ibb.co/h1B9X2H/background.jpg");
+   background-size: cover;
+   height:92vh;
+   width: ;
+}
+
+@media (max-width: 800px){
+   .allImages{
+      margin: 0;
+      padding: 0;
+      width: 20vh;
+      height: 20vh;
+      background-size: cover;
+      
+   }
+}
+@media (max-width:1000px){
+   .allImages{
+      margin: 0;
+      padding: 0;
+      width: 56.4vh;
+      height: 40vh;
+      background-size: cover;
+      
+
+   }
+}
